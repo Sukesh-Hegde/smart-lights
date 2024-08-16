@@ -13,7 +13,7 @@ const HeroContainer = styled.section`
   justify-content: center;
   align-items: center;
   color: #fff;
-  text-align: center;
+  text-align: top;
 `;
 
 const Button = styled.button`
@@ -28,9 +28,10 @@ const Button = styled.button`
 const Hero = () => {
   return (
     <HeroContainer>
-      <h1>
-        Bringing A New Perspective To Street Lights And The Cities Of Tomorrow.
-      </h1>
+      
+      <h5>Smart Lighting Solutions</h5>
+      <h1>Bringing A New Perspective To</h1>
+      <h1> Street Lights And The Cities Of Tomorrow.</h1>
       <Button>Learn More</Button>
     </HeroContainer>
   );
