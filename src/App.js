@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Ecosystem from './components/Ecosystem';
 import Products from './components/Products';
 import Footer from './components/Footer';
+import Assist from './components/assist/assist';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Ecosystem />
       <Products />
+      <Assist />
       <Footer />
     </div>
   );
