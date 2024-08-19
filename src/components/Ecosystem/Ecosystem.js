@@ -2,11 +2,11 @@
 // src/components/Ecosystem.js
 import React from 'react';
 import styled from 'styled-components';
-import streetLight from "../components/assets/street_light_controler.png"
-import gateway from '../components/assets/gateway_png.png'
-import cloud from '../components/assets/cloud_based management.png'
-import user from '../components/assets/users_png.png'
-import evaluation from '../components/assets/evaluation_png.png'
+import streetLight from "../assets/street_light_controler.png"
+import gateway from '../assets/gateway_png.png'
+import cloud from '../assets/cloud_based management.png'
+import user from '../assets/users_png.png'
+import evaluation from '../assets/evaluation_png.png'
 
 const EcosystemContainer = styled.section`
   padding: 50px;

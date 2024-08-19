@@ -1,0 +1,53 @@
+.fot {
+  background-image: url(../assets/Footer.png);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+}
+
+.headerContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 300px;
+  margin-top: 30px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+
+
+
+.navContainer {
+  display: flex;
+  gap: 50px;
+}
+
+.navItem {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #4a4a4a;
+  padding-top: 10px;
+  margin-bottom: 100px;
+  width: 50%;
+}
+
+.footerItem {
+  margin: 0 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: aliceblue;
+}

@@ -1,36 +1,18 @@
 // src/components/Header.js
 import React from "react";
-import logo from "../components/assets/smart lights_logo.svg"
-// const HeaderContainer = styled.header`
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   padding: 20px;
-//   background-color: #000;
-//   color: #fff;
-// `;
-
-// const Nav = styled.nav`
-//   display: flex;
-//   gap: 20px;
-// `;
-
-// const Logo = styled.div`
-//   font-size: 24px;
-//   font-weight: bold;
-// `;
+import logo from '../../assets/smart lights_logo.svg'
 
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a className="navbar-brand" href="#">
           <img
             src={logo}
             alt="Logo"
             width="110"
             height="24"
-            class="d-inline-block align-text-top"
+            className="d-inline-block align-text-top"
           />
         </a>
         <button
@@ -63,7 +45,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <button className="btn btn-outline-success" type="submit">
+          <button className="btn btn-primary" type="submit">
             Login
           </button>
         </div>
@@ -74,12 +56,3 @@ const Header = () => {
 
 export default Header;
 
-{/* <HeaderContainer>
-      <Logo>Smart Lights</Logo>
-      <Nav>
-        <a href="#home">Home</a>
-        <a href="#products">Products</a>
-        <a href="#services">Software Services</a>
-        <button>Login</button>
-      </Nav>
-    </HeaderContainer> */}
