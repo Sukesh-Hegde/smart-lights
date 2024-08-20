@@ -1,4 +1,3 @@
-// src/components/Footer.js
 import React from "react";
 import "./footer.css";
 import logo from "../assets/smart lights_logo.svg";

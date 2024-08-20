@@ -1,4 +1,3 @@
-// src/components/Hero.js
 import React from "react";
 import styled from "styled-components";
 import heroImage from "../assets/Hero_section.png";

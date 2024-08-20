@@ -1,4 +1,3 @@
-// src/components/Products.js
 import React from "react";
 import styled from "styled-components";
 import './product.css';
@@ -32,7 +31,7 @@ const styles = {
   types: {
     backgroundColor: "white",
     padding: "5px",
-    border: "1px solid black", // Border style
+    border: "1px solid black", 
     borderRadius: "5px",
     gap: "10px",
     justifyContent: "center",
@@ -73,9 +72,7 @@ const Products = () => {
               </button>
             </div>
 
-            {/* Main Content */}
             <div className="content">
-              {/* Image Section */}
               <div className="image-section">
                 <img
                   src={smartLight}
@@ -83,8 +80,6 @@ const Products = () => {
                   className="streetlight-image"
                 />
               </div>
-
-              {/* Text Section */}
               <div className="text-section">
                 <h3>Products 1/5</h3>
                 <h1>Centralized Control & Monitoring System</h1>
