@@ -47,9 +47,9 @@ const Ecosystem = () => {
       <div style={styles.container}>
         <span style={styles.label}>Ecosystem</span>
       </div>
-      <h2>How does a smart street </h2>
-      <h2>light ecosystem work?</h2>
-      <div></div>
+
+        <h2>How does a smart street <br/> light ecosystem work?</h2>
+
       <EcosystemGrid>
         <div style={{ display: "flex", justifyContent: "space-around" }}>
           <EcosystemItem>
@@ -123,7 +123,10 @@ const Ecosystem = () => {
           <EcosystemItem>
             <img src={evaluation} alt="evaluation" />
             <h6 style={{ padding: "10px" }}>Evaluation</h6>
-            <p>Gathered insights are used to evaluate the performance of the lighting System</p>
+            <p>
+              Gathered insights are used to evaluate the performance of the
+              lighting System
+            </p>
           </EcosystemItem>
         </div>
       </EcosystemGrid>

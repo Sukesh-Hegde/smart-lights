@@ -1,7 +1,7 @@
 // src/components/Hero.js
 import React from "react";
 import styled from "styled-components";
-import heroImage from "../components/assets/Hero_section.png"
+import heroImage from "../assets/Hero_section.png";
 
 const HeroContainer = styled.section`
   background-image: url(${heroImage});
@@ -27,13 +27,14 @@ const Button = styled.button`
 
 const Hero = () => {
   return (
-    <HeroContainer>
-      
-      <h5>Smart Lighting Solutions</h5>
-      <h1>Bringing A New Perspective To</h1>
-      <h1> Street Lights And The Cities Of Tomorrow.</h1>
-      <Button>Learn More</Button>
-    </HeroContainer>
+    <div id="Hero">
+      <HeroContainer>
+        <h5>Smart Lighting Solutions</h5>
+        <h1>Bringing A New Perspective To</h1>
+        <h1> Street Lights And The Cities Of Tomorrow.</h1>
+        <Button>Learn More</Button>
+      </HeroContainer>
+    </div>
   );
 };
 

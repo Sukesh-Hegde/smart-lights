@@ -1,8 +1,8 @@
 // src/components/Header.js
 import React from "react";
-import logo from '../../assets/smart lights_logo.svg'
+import logo from '../assets/smart lights_logo.svg'
 
-const Header = () => {
+const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
@@ -28,14 +28,18 @@ const Header = () => {
         </button>
 
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 " >
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li className="nav-item">
-              <a className="nav-link active"  aria-current="page" href="#">
-                Home
+              <a className="nav-link active" aria-current="page" href="#">
+                Ecosystem
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#product"
+              >
                 Product
               </a>
             </li>
@@ -54,5 +58,5 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;
 
