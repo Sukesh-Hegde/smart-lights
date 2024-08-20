@@ -68,4 +68,11 @@ Contributions are welcome! If you have any ideas for improvements or find any bu
 
 ## screenShots
 
+![Screenshot 2024-08-20 at 10 17 12 AM](https://github.com/user-attachments/assets/3c1e03d6-71d0-4d87-9014-112d93888a62)
+
+![Screenshot 2024-08-20 at 10 17 22 AM](https://github.com/user-attachments/assets/21bc25f6-7915-4147-87c6-b38632b78d28)
+
+![Screenshot 2024-08-20 at 10 17 39 AM](https://github.com/user-attachments/assets/3e851d47-dc4a-49bf-8367-7fc08a36a454)
+
+![Screenshot 2024-08-20 at 10 17 49 AM](https://github.com/user-attachments/assets/f01fa35b-a453-43d2-a15c-d4a607b7401f)
 
